@@ -1,0 +1,134 @@
+.divider {
+    border-left: 1.5px solid #ccc;
+}
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #207568;
+}
+.subtitulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #003049;
+}
+.texto {
+    font-size: 18px;
+    color: #6c757d;
+}
+ 
+body {
+background-color: #f8f9fa;
+}
+.form-container {
+max-width: 600px;
+margin: 50px auto;
+padding: 30px;
+background-color: #ffffff;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+ 
+div h2 {
+    font-size: 150%;
+    color: #207568;
+}
+h2 {
+color: #207568;
+margin-bottom: 20px;
+}
+label {
+color: #207568;
+}
+ 
+.btn-enviar {
+background-color: #f7c731; /* Color de fondo amarillo */
+border-color: #f7c731; /* Color del borde del botón */
+color: #000000; /* Color del texto del botón en negro para mejor contraste */
+}
+ 
+.btn-enviar:hover {
+background-color: #e0b829; /* Color de fondo al pasar el mouse, un amarillo más oscuro */
+border-color: #e0b829; /* Color del borde al pasar el mouse */
+}
+ 
+ 
+.tarjeta {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+border: none;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+.tarjeta img {
+width: 150px;
+margin-bottom: 15px;
+}
+.contenedor-equipo {
+padding-top: 60px;
+margin-left: 400px;
+}
+.tarjeta h5 {
+color: #39544c;
+font-weight: bold;
+}
+.tarjeta-texto{
+flex-direction: column;
+}
+ 
+ 
+ 
+.video-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+ 
+ 
+.video {
+width: 80%;
+height: 450px;
+max-width: 600px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+ 
+ 
+.footer {
+background-color: #207568;
+color: #ffffff;
+padding: 30px;
+text-align: center;
+margin-top: 60px;
+border-top: 2px solid #495057;
+border-radius: 10px 10px 0 0;
+}
+
+.tarjeta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .tarjeta img {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  .contenedor-equipo {
+    padding-top: 60px;
+    margin-left: 400px;
+  }
+  .tarjeta h5 {
+    color: #39544c;
+    font-weight: bold;
+  }
+  .tarjeta-texto{
+    flex-direction: column;
+  }
