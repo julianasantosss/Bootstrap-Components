@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    
+
   <nav class="navbar navbar-expand-lg" style="height: 120px; background-color: rgb(149, 252, 252); align-items: end;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="image.png" height="24"></a>
@@ -99,6 +101,44 @@
         </div>
     </div>
 </div>
+<div class="container form-container"></div>
+        <h2>Recibe un tour guiado por esta escala</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="personas" class="form-label">Número de personas</label>
+            <input type="number" class="form-control" id="personas" placeholder="Número de personas">
+          </div>
+          <div class="mb-3">
+            <label for="pais" class="form-label">País</label>
+            <select class="form-select" id="pais">
+              <option selected>Selecciona tu país</option>
+              <option value="1">Colombia</option>
+              <option value="2">México</option>
+              <option value="3">Argentina</option>           
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="captcha" class="form-label">Verificación CAPTCHA</label>
+            <div class="g-recaptcha" data-sitekey="tu-clave-publica"></div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <div class="video-container"></div>
+        <iframe class="video" src="https://www.youtube.com/embed/5Ka-QpURkkU" title="YouTube video" allowfullscreen></iframe>
+    </div>
 
 <div class="contenedor-equipo ">
     <div class="row text-center">
